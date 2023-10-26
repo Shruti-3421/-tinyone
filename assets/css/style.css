@@ -1,0 +1,202 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+/*.....heroimg css starts........*/
+
+.heroImg{
+   padding: 75px 0 105px;	
+   background-color: var(--color-primary);
+}
+
+.heroImg .headersection{
+    background-color: transparent;
+    border-color: transparent ;
+}
+
+.headersection .navbar-nav>li>a {
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: var(--text-color-primary);
+	background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+}
+
+.inspire{
+	margin-top: 70px;
+}
+
+
+.brandIcons li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.brandIcons li a i{
+	color: var(--text-color-primary);
+}
+
+
+/*......features css starts.......*/
+ 
+.features{
+	padding: 115px 0 80px;
+}
+
+.features .sec-heading{
+	margin-bottom: 90px;
+}
+
+.ourthumbnail{
+	margin-bottom: 90px;
+}
+
+.ourthumbnail h4{
+	margin: 0 0 15px;
+	font-size: 22px;
+	color: var(--text-color-prim);
+}
+
+.ourthumbnail p{
+	font-size: 16px;
+	color: var(--text-color-quar);
+}
+
+
+
+/*......footer section css starts...........*/
+
+.footer{
+	padding: 90px 0 140px;
+	background-color: var(--text-color-primary);
+}
+
+.footer .pri-heading{
+	color: var(--color-primary);
+}
+
+.footer .sec-heading{
+	color: var(--text-color-quar)
+}
+
+.signIn .e-mail{
+	display: inline-block;
+	width: calc(100% - 175px);
+    height: 50px;
+    margin-right: 20px;
+}
+
+.signIn .btn{
+	width: 150px;
+    height: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: var(--text-color-primary);
+	background-color: var(--color-primary);
+	border: 1px solid var(--color-primary);
+}
+
+.signIn .btn:hover,
+.signIn .btn:focus,
+.signIn .btn:active{
+	color: var(--color-primary);
+	background-color: var(--text-color-primary);
+}
+
+.signIn{
+	margin-bottom: 80px;
+}
+
+
+.footer .brandIcons{
+	margin-bottom: 135px;
+}
+  
+.footer .brandIcons li a i{
+	color: var(--color-primary);
+}  
+  
+.footerList li, .footerList a{
+	color: var(--color-white);
+	font-size: 16px;
+	text-transform: capitalize;
+}  
+
+
+  
+  
+
+@media all and (min-width: 768px){  
+   .headersection .navbar-brand{
+	 padding-top: 0;
+	 padding-bottom: 0;
+  }
+  .headersection{
+	  margin-bottom: 55px;
+  }
+  .headersection .navbar-nav>li {
+    float: left;
+	margin-left: 30px;
+  }
+  .ipad{
+	  margin-left: 90px;
+  }
+  .brandIcons li>a>i:hover{
+		transform:rotate(360deg);
+		transition:all 0.7s ease-in-out;
+
+  }
+} 
+
+
+
+@media all and (max-width: 768px){
+	.section{
+		padding: 45px 0;
+	}
+	 .headersection .navbar-brand{
+		 padding: 0 15px;
+	}
+	.headersection .navbar-toggle {
+        border-color: #010101;
+    }
+	.headersection .navbar-toggle .icon-bar {
+        background-color: #010101;
+    }
+	.inspire {
+        margin: 0 0 20px;
+    }
+	.features .sec-heading {
+       margin-bottom: 50px;
+    }
+	.ourthumbnail{
+       margin-bottom: 20px;
+    } 
+
+	.signIn .e-mail {
+        margin-bottom: 20px;
+		width: 100%;
+    }
+	
+	.signIn .btn{
+		width: 100%;
+	}
+	.signIn{
+	   margin-bottom: 30px;
+	}
+	.footer .brandIcons {
+      margin-bottom: 40px;
+    }
+	
+} 
+
+ 
+@media all and (max-width: 600px){
+	.ipad{
+		width: 100%;
+	}
+} 
